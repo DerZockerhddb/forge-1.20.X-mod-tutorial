@@ -1,6 +1,6 @@
-package net.DerZockerhddb.Loot_boxmod.item;
+package net.derzockerhddb.loot_boxmod.item;
 
-import net.DerZockerhddb.Loot_boxmod.Loot_boxMod;
+import net.derzockerhddb.loot_boxmod.Loot_boxMod;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

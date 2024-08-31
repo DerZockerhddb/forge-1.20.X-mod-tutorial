@@ -1,9 +1,8 @@
-package net.DerZockerhddb.Loot_boxmod;
+package net.derzockerhddb.loot_boxmod;
 
 import com.mojang.logging.LogUtils;
-import net.DerZockerhddb.Loot_boxmod.item.ModCreativeModTabs;
-import net.DerZockerhddb.Loot_boxmod.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
+import net.derzockerhddb.loot_boxmod.item.ModCreativeModTabs;
+import net.derzockerhddb.loot_boxmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
