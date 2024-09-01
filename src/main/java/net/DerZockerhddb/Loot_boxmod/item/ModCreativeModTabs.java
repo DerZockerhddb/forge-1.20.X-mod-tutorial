@@ -23,7 +23,7 @@ public static final RegistryObject<CreativeModeTab> LOOTBOX_TAB = CREATIVE_MODE_
                 .build());
 
 
-public static void  register(IEventBus eventBus) {
-    CREATIVE_MODE_TABS.register(eventBus);
+    public static void  register(IEventBus eventBus) {
+         CREATIVE_MODE_TABS.register(eventBus);
     }
 }

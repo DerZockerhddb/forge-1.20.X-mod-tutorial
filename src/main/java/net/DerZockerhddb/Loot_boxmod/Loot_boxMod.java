@@ -18,11 +18,8 @@ import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Loot_boxMod.MOD_ID)
-public class Loot_boxMod
-{
-    // Define mod id in a common place for everything to reference
+public class Loot_boxMod {
     public static final String MOD_ID = "loot_box";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public Loot_boxMod() {
