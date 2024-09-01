@@ -1,6 +1,7 @@
 package net.derzockerhddb.loot_boxmod;
 
 import com.mojang.logging.LogUtils;
+import net.derzockerhddb.loot_boxmod.block.ModBlocks;
 import net.derzockerhddb.loot_boxmod.item.ModCreativeModTabs;
 import net.derzockerhddb.loot_boxmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,6 +29,7 @@ public class Loot_boxMod {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

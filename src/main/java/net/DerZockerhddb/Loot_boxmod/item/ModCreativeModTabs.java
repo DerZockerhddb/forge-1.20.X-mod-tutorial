@@ -1,6 +1,7 @@
 package net.derzockerhddb.loot_boxmod.item;
 
 import net.derzockerhddb.loot_boxmod.Loot_boxMod;
+import net.derzockerhddb.loot_boxmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,7 @@ public static final RegistryObject<CreativeModeTab> LOOTBOX_TAB = CREATIVE_MODE_
                 .displayItems(((itemDisplayParameters, output) -> {
                     output.accept(ModItems.SAPPHIRE.get());
                     output.accept(ModItems.LOOT_BOX.get());
+                    output.accept(ModBlocks.VENDINGMACHINE_BLOCK.get());
                 }))
                 .build());
 

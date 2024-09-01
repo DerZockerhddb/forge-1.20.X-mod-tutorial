@@ -1,6 +1,8 @@
 {
-  "item.loot_boxMod.sapphire": "Sapphire",
-  "item.loot_boxMod.loot_box": "Lootbox",
+  "item.loot_box.sapphire": "Sapphire",
+  "item.loot_box.loot_box": "Lootbox",
+
+  "block.loot_box.vendingmachine_block" : "Vending Machine",
 
   "creativetab.lootbox_tab": "Sapphire Tutorial Tab"
 }
